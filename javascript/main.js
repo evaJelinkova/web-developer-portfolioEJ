@@ -1,3 +1,6 @@
+
+// -----------carousel------------
+
 const galleryContainer = document.querySelector('.gallery-container');
 const galleryControlsContainer = document.querySelector('.gallery-controls');
 const galleryControls = ['previous', 'next'];
