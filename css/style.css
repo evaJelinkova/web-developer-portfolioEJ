@@ -8,60 +8,111 @@
     height: 3em;
 }
 
-.profile-image {
-  height: 30em;
-  width: 30em;
-  border-radius: 50%;
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8FFE5;
+}
+
+.line-between-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.line-between-section-box {
+    background-color: blue;
+    height: 0.15em;
+    width: 100%;
 }
 
 
-/* hex-logo */
-.hex {
-    margin-top: 70px;
-    width: 208px;
-    height: 120px;
-    background: #6C6;
+/* (nav-bar) */
+.section-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+    height: 6em;
+}
+.nav-bar-flex {
+    display: flex;
+    flex-direction: row;  
+    
+}
+
+.nav-item {
+    padding: 1em;
+}
+
+/* (section-profile-picture) */
+#warpper-h1-photo {
+    display: flex;            
+    flex-direction: column;   
     position: relative;
 }
-.hex:before, .hex:after {
-    content:"";
-    border-left: 104px solid transparent;
-    border-right: 104px solid transparent;
+
+.center-aligned-h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-h1-h2 {
     position: absolute;
+    top: 50%;
+    color: #EF476F;
+    width: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
-.hex:before {
-    top: -59px;
-    border-bottom: 60px solid #6C6;
+
+h1 {
+    font-size: 7em;
 }
-.hex:after {
-    bottom: -59px;
-    border-top: 60px solid #6C6;
+
+h2 {
+    font-size: 3em;
 }
-.hex.inner {
-    background-color:blue;
-    -webkit-transform: scale(.8, .8);
-    -moz-transform: scale(.8, .8);
-    transform: scale(.8, .8);
-    z-index:1;
+
+.profile-image {
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    height: 35em;
+    width: 35em;
+    border-radius: 50%;
 }
-.hex.inner:before {
-    border-bottom: 60px solid blue;
+
+/* (section-about) */
+.section-about {
+    width: 70%;
 }
-.hex.inner:after {
-    border-top: 60px solid blue;
+
+/* (section-carousel) */
+.section-carousel {
+    width: 70%;
 }
-.hex.inner2 {
-    background-color:red;
-    -webkit-transform: scale(.8, .8);
-    -moz-transform: scale(.8, .8);
-    transform: scale(.8, .8);
-    z-index:2;
+
+/* (section-contact) */
+.section-contact {
+    width: 70%;
 }
-.hex.inner2:before {
-    border-bottom: 60px solid red;
+/* (footer) */
+.section-footer {
+    width: 100%;
+    height: 20em;
+    background-color: #EF476F;
 }
-.hex.inner2:after {
-    border-top: 60px solid red;
+
+.footer {
+    
 }
 
 
