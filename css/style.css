@@ -58,9 +58,15 @@
 .nav-item {
     padding: 1em;
     font-size: 1.3em;
+    text-decoration: none;
+    color: #06D6A0;
 }
 
 /* (section-profile-picture) */
+.code-word {
+    font-size: 1.3em;
+}
+
 #warpper-h1-photo {
     display: flex;            
     flex-direction: column;   
@@ -175,6 +181,18 @@ h2 {
 }
 .contact-color {
     color: #F8FFE5;
+}
+
+.logos {
+    height: 2.3em;
+    width; 2.3em;
+    padding: 1em;
+}
+
+.GH-logo {
+    height: 3em;
+    width; 3em;
+    padding: 1em;
 }
 
 /* (footer)  */

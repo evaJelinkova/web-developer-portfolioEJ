@@ -22,10 +22,10 @@
 
       <nav>
         <ul class="nav-bar-flex">
-          <li class="nav-item">.home</li>
-          <li class="nav-item">.about</li>
-          <li class="nav-item">.projects</li>
-          <li class="nav-item">.contact</li>
+          <a class="nav-item" href="#home">.home</a>
+          <a class="nav-item" href="#about">.about</a>
+          <a class="nav-item" href="#projects">.projects</a>
+          <a class="nav-item" href="#contact">.contact</a>
         </ul> 
       </nav>
         
@@ -48,7 +48,7 @@
             </h1>
 
             <h2>
-              .i love to code, create, play
+              .i love to <span class="code-word">CODE</span>, create, play
               </h2>
           </div>
         
@@ -58,7 +58,7 @@
       
 
  <!-- --------section-about - cv download, about-me, what-ive-done, what-i-do------- -->
-    <div class="section section-about">
+    <div class="section section-about" id="about">
 
       <div class="line-between-section">
         <div class="line-between-section-box"></div>
@@ -112,7 +112,7 @@
       
 
     <!-- -----section-portfolio - carousel---------- --> 
-    <div class="section section-carousel">
+    <div class="section section-carousel" id="projects">
 
       <div class="line-between-section">
         <div class="line-between-section-box"></div>
@@ -139,7 +139,7 @@
         
 
     <!-- -----------section-contact - where-to-find-me, tel, email, form-message, links to github, linkedin------->
-    <div class="bottom-color-block">
+    <div class="bottom-color-block" id="contact">
 
       <div class="section section-contact">
 
@@ -151,7 +151,7 @@
   
         <div class="about-card-container">
 
-          <div class="about-card contact-color">
+          <!-- <div class="about-card contact-color">
             <h4 class="about-p-title">
               .find
             </h4>
@@ -160,7 +160,7 @@
               N1 0GJ<br>
               London
             </p>
-          </div>
+          </div> -->
 
           <div class="about-card contact-color">
             <h4 class="about-p-title">
@@ -175,11 +175,20 @@
             <h4 class="about-p-title">
               .follow
             </h4>
-            <p class="about-p">
-              linkedin<br>
-              github<br>
-              insta
-            </p>
+            <div class="about-p">
+              <a href="https://www.linkedin.com/in/eva-jel%C3%ADnkov%C3%A1-5b76b555/">
+                <img class="logos" src="images/linkedin.svg" alt="linkedin-logo">
+              </a>
+
+              <a href="https://github.com/evaJelinkova">
+                <img class="logos GH-logo" src="images/GH.svg" alt="github-logo">
+              </a>
+
+              <a href="https://www.instagram.com/evajelen/">
+                <img class="logos" src="images/instagram.svg" alt="instagram-logo">
+              </a>
+
+            </div>
           </div>
           
         </div>
