@@ -160,9 +160,32 @@ h2 {
 }
 
 
-/* (section-carousel) */
+/* (section-projects) */
 .section-carousel {
     width: 70%;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.projects-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.projects-item {
+    height: 15em;
+    width: 15em;
+    margin: 2em;
+    border-radius: 50%;
 }
 
 /* (section-contact) */
@@ -218,7 +241,7 @@ h2 {
 
 
 
-.gallery {
+/* .gallery {
   width: 100%;
 }
 
@@ -365,5 +388,5 @@ h2 {
 .gallery-nav li.gallery-item-selected {
   background: #555;
 }
-
+ */
 
