@@ -181,10 +181,14 @@ h2 {
     width: 100%;
 }
 
+.project-card {
+    
+}
+
 .projects-item {
-    height: 15em;
-    width: 15em;
-    margin: 2em;
+    height: 17em;
+    width: 17em;
+    margin: 0em 2em 3em 2em;
     border-radius: 50%;
 }
 
@@ -216,6 +220,11 @@ h2 {
     height: 3em;
     width; 3em;
     padding: 1em;
+}
+
+.contact-mail {
+    color: black;
+    margin-top: 2em;
 }
 
 /* (footer)  */
@@ -390,3 +399,32 @@ h2 {
 }
  */
 
+
+
+/* ------button to top-------- */
+
+ #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none;
+    background-color: transparent; 
+    opacity: 0.5;
+    outline: none; /* Remove outline */
+    /*background-color: red; /* Set a background color */
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 3em;
+    transform: rotate(90deg);
+    font-family: 'Comfortaa', cursive;
+  }
+  
+  #myBtn:hover {
+    color:#06D6A0;
+    font-size: 4em;
+    opacity: 1;
+  }
