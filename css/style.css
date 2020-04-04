@@ -119,6 +119,9 @@ h2 {
     height: 35em;
     width: 35em;
     border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4), 0 12px 40px 0 rgba(0, 0, 0, 0.40); */
+
 }
 
 /* (section-about) */
@@ -206,13 +209,14 @@ h2 {
     width: 17em;
     margin: 0em 2em 3em 2em;
     border-radius: 50%;
-    border: 2px solid #F7F3E3;
+    /* border: 2px solid #F7F3E3; */
     opacity: 1;
     display: block;
     /* width: 100%;
     height: auto; */
     transition: .5s ease;
     backface-visibility: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .middle {
