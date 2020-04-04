@@ -227,7 +227,7 @@ h2 {
 }
 
 .projects-card:hover .projects-item {
-  opacity: 0.3;
+  opacity: 0.1;
 }
 
 .projects-card:hover .middle {
